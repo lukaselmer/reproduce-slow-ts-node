@@ -1,0 +1,27 @@
+{
+  "name": "reproduce-slow-ts-node",
+  "version": "1.0.0",
+  "description": "See https://github.com/TypeStrong/ts-node/issues/754",
+  "main": "index.ts",
+  "dependencies": {
+    "require-dir": "^1.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.3.4000"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaselmer/reproduce-slow-ts-node.git"
+  },
+  "author": "Lukas Elmer <lukas.elmer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukaselmer/reproduce-slow-ts-node/issues"
+  },
+  "homepage": "https://github.com/lukaselmer/reproduce-slow-ts-node#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.123"
+  }
+}
