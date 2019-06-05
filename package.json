@@ -4,12 +4,13 @@
   "description": "See https://github.com/TypeStrong/ts-node/issues/754",
   "main": "index.ts",
   "dependencies": {
+    "@types/node": "^12.0.4",
     "require-dir": "^1.2.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.3.4000"
   },
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node --no-cache index.ts"
   },
   "repository": {
     "type": "git",
